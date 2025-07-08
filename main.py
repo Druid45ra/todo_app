@@ -94,12 +94,19 @@ class ToDoApp:
             messagebox.showwarning("Input Error", "Please fill in all fields.")
             return
 
+        # Validare deadline la editare
+        try:
+            datetime.strptime(deadline, "%Y-%m-%d")
+        except ValueError:
+            messagebox.showwarning("Input Error", "Deadline must be in YYYY-MM-DD format.")
+            return
+
         try:
             priority = int(priority)
             if not 1 <= priority <= 5:
                 raise ValueError
         except ValueError:
-            messagebox.showwarning("Input Error", "Priority must bea number between 1 and 5.")
+            messagebox.showwarning("Input Error", "Priority must be a number between 1 and 5.")
             return
 
         self.task_manager.edit_task(task_id, task, deadline, priority)

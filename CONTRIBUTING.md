@@ -1,13 +1,28 @@
 # Contributing to To-Do List App
 
-Thank you for your interest in contributing to the To-Do List App! We welcome contributions from everyone. Please follow these guidelines to make the process smooth.
-
-## Code of Conduct
-Please read our [Code of Conduct](CODE_OF_CONDUCT.md) to understand the expected behavior in our community.
+Thank you for your interest in contributing! Here are some guidelines to help you get started:
 
 ## How to Contribute
-1. **Find an Issue**: Check the [Issues](https://github.com/nume-utilizator/todo-app/issues) tab for open issues. Look for labels like `good first issue` or `help wanted`.
-2. **Fork the Repository**: Click the "Fork" button on the repository page.
-3. **Clone Your Fork**:
-   ```bash
-   git clone https://github.com/nume-utilizator/todo-app.git
+
+- Fork the repository and clone it locally.
+- Create a new branch for your feature or bugfix.
+- Make your changes and test them locally.
+- Commit your changes with clear messages.
+- Push your branch and open a Pull Request.
+
+## Code Style
+
+- Use clear and descriptive variable/function names.
+- Follow PEP8 guidelines for Python code.
+- Write docstrings for functions and classes.
+
+## Reporting Issues
+
+- Search existing issues before opening a new one.
+- Provide a clear description and steps to reproduce.
+
+## Need Help?
+
+If you have questions, open an issue or contact the maintainer.
+
+Happy coding!
